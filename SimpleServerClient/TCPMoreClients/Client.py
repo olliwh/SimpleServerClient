@@ -1,5 +1,5 @@
 from socket import *
-# server adress:
+# server address:
 serverName = '127.0.0.1'
 serverPort = 12
 # Make client Socket:
