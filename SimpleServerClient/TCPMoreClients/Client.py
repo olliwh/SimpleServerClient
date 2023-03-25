@@ -5,7 +5,7 @@ serverPort = 12
 # Make client Socket:
 clientSocket = socket(AF_INET, SOCK_STREAM)
 # SOCK_STREAM says its TCP
-# Here we establish Connection with server adress:
+# Here we establish Connection with server address:
 clientSocket.connect((serverName, serverPort))
 while True:
     sentence = input('Input lowercase sentence:')
